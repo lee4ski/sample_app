@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  resources :users
+  
   get "new_users/new"
 
   get "users/new"
